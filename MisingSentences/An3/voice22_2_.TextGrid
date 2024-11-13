@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.437333333333333 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "AN" 
+        xmin = 0 
+        xmax = 4.437333333333333 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8898961823680501 
+            text = "" 
+        intervals [2]:
+            xmin = 0.8898961823680501 
+            xmax = 0.8919729724915069 
+            text = "" 
+        intervals [3]:
+            xmin = 0.8919729724915069 
+            xmax = 0.9968508737260747 
+            text = "o" 
+        intervals [4]:
+            xmin = 0.9968508737260747 
+            xmax = 1.4217962933963044 
+            text = "" 
+        intervals [5]:
+            xmin = 1.4217962933963044 
+            xmax = 1.5162902440135884 
+            text = "a-" 
+        intervals [6]:
+            xmin = 1.5162902440135884 
+            xmax = 1.8279901420995945 
+            text = "" 
+        intervals [7]:
+            xmin = 1.8279901420995945 
+            xmax = 1.8705643396304588 
+            text = "i" 
+        intervals [8]:
+            xmin = 1.8705643396304588 
+            xmax = 2.1050109325544786 
+            text = "" 
+        intervals [9]:
+            xmin = 2.1050109325544786 
+            xmax = 2.2026200683569477 
+            text = "a" 
+        intervals [10]:
+            xmin = 2.2026200683569477 
+            xmax = 2.5305625234070757 
+            text = "" 
+        intervals [11]:
+            xmin = 2.5305625234070757 
+            xmax = 2.5959814122959646 
+            text = "e" 
+        intervals [12]:
+            xmin = 2.5959814122959646 
+            xmax = 2.753817461678681 
+            text = "" 
+        intervals [13]:
+            xmin = 2.753817461678681 
+            xmax = 2.8659641283453476 
+            text = "i" 
+        intervals [14]:
+            xmin = 2.8659641283453476 
+            xmax = 3.0166358948545855 
+            text = "" 
+        intervals [15]:
+            xmin = 3.0166358948545855 
+            xmax = 3.1370897220150793 
+            text = "a" 
+        intervals [16]:
+            xmin = 3.1370897220150793 
+            xmax = 3.2274300923854495 
+            text = "" 
+        intervals [17]:
+            xmin = 3.2274300923854495 
+            xmax = 3.3001177467064373 
+            text = "e" 
+        intervals [18]:
+            xmin = 3.3001177467064373 
+            xmax = 3.372805401027425 
+            text = "" 
+        intervals [19]:
+            xmin = 3.372805401027425 
+            xmax = 3.4319939195459437 
+            text = "a" 
+        intervals [20]:
+            xmin = 3.4319939195459437 
+            xmax = 4.437333333333333 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "3" 
+        xmin = 0 
+        xmax = 4.437333333333333 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.437333333333333 
+            text = "" 
