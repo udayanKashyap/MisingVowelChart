@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.4346666666666668 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "vowels" 
+        xmin = 0 
+        xmax = 3.4346666666666668 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7887713343429197 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7887713343429197 
+            xmax = 0.868576125661702 
+            text = "o" 
+        intervals [3]:
+            xmin = 0.868576125661702 
+            xmax = 1.1478928952774397 
+            text = "" 
+        intervals [4]:
+            xmin = 1.1478928952774397 
+            xmax = 1.2326854860536458 
+            text = "o" 
+        intervals [5]:
+            xmin = 1.2326854860536458 
+            xmax = 1.3573804724892427 
+            text = "" 
+        intervals [6]:
+            xmin = 1.3573804724892427 
+            xmax = 1.4072584670634816 
+            text = "o" 
+        intervals [7]:
+            xmin = 1.4072584670634816 
+            xmax = 1.4869071791678687 
+            text = "" 
+        intervals [8]:
+            xmin = 1.4869071791678687 
+            xmax = 1.5539983297741045 
+            text = "o" 
+        intervals [9]:
+            xmin = 1.5539983297741045 
+            xmax = 1.6915630361366432 
+            text = "" 
+        intervals [10]:
+            xmin = 1.6915630361366432 
+            xmax = 1.746428830168306 
+            text = "e'" 
+        intervals [11]:
+            xmin = 1.746428830168306 
+            xmax = 2.005794401954348 
+            text = "" 
+        intervals [12]:
+            xmin = 2.005794401954348 
+            xmax = 2.0656479954434346 
+            text = "e" 
+        intervals [13]:
+            xmin = 2.0656479954434346 
+            xmax = 2.1953307813364558 
+            text = "" 
+        intervals [14]:
+            xmin = 2.1953307813364558 
+            xmax = 2.2452087759106947 
+            text = "e" 
+        intervals [15]:
+            xmin = 2.2452087759106947 
+            xmax = 3.4346666666666668 
+            text = "" 
