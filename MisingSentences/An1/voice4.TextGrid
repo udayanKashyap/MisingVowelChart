@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "vowels" 
+        xmin = 0 
+        xmax = 4 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.674631704733443 
+            text = "" 
+        intervals [2]:
+            xmin = 0.674631704733443 
+            xmax = 0.7501457493140066 
+            text = "u" 
+        intervals [3]:
+            xmin = 0.7501457493140066 
+            xmax = 0.8430861118747002 
+            text = "" 
+        intervals [4]:
+            xmin = 0.8430861118747002 
+            xmax = 0.9011738384751335 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.9011738384751335 
+            xmax = 1.3576465566768732 
+            text = "" 
+        intervals [6]:
+            xmin = 1.3576465566768732 
+            xmax = 1.40411673795722 
+            text = "o" 
+        intervals [7]:
+            xmin = 1.40411673795722 
+            xmax = 1.4505869192375667 
+            text = "" 
+        intervals [8]:
+            xmin = 1.4505869192375667 
+            xmax = 1.4999614868479354 
+            text = "u" 
+        intervals [9]:
+            xmin = 1.4999614868479354 
+            xmax = 1.619041326378824 
+            text = "" 
+        intervals [10]:
+            xmin = 1.619041326378824 
+            xmax = 1.6597027349991273 
+            text = "o" 
+        intervals [11]:
+            xmin = 1.6597027349991273 
+            xmax = 1.9530457543313164 
+            text = "" 
+        intervals [12]:
+            xmin = 1.9530457543313164 
+            xmax = 2.0285597989118798 
+            text = "e'" 
+        intervals [13]:
+            xmin = 2.0285597989118798 
+            xmax = 2.092456298172357 
+            text = "" 
+        intervals [14]:
+            xmin = 2.092456298172357 
+            xmax = 2.1912054333930935 
+            text = "a" 
+        intervals [15]:
+            xmin = 2.1912054333930935 
+            xmax = 2.278337023293744 
+            text = "" 
+        intervals [16]:
+            xmin = 2.278337023293744 
+            xmax = 2.321902818244069 
+            text = "i" 
+        intervals [17]:
+            xmin = 2.321902818244069 
+            xmax = 2.461313362085109 
+            text = "" 
+        intervals [18]:
+            xmin = 2.461313362085109 
+            xmax = 2.510687929695478 
+            text = "o" 
+        intervals [19]:
+            xmin = 2.510687929695478 
+            xmax = 2.7575607677473197 
+            text = "" 
+        intervals [20]:
+            xmin = 2.7575607677473197 
+            xmax = 2.795317790037602 
+            text = "o" 
+        intervals [21]:
+            xmin = 2.795317790037602 
+            xmax = 4 
+            text = "" 
