@@ -1,3 +1,4 @@
+import sys
 import csv
 import pprint
 import parselmouth
@@ -5,14 +6,21 @@ from parselmouth import praat
 import textgrid as tg
 import os
 
-voiceDir = "MisingSentences/V1"
-annoDir = "MisingSentences/An1"
+# voiceDir = "MisingSentences/V2"
+# annoDir = "MisingSentences/An2"
 outputDir = "formantData"
 
+rootDir = "MisingSentences"
 
-def main():
+
+def main(voiceDir, annoDir):
     sentenceCounter = 0
     for voiceFilename in os.listdir(voiceDir):
+        # Check if file is valid sound file
+        if not voiceFilename.endswith(".wav"):
+            continue
+        if voiceFilename.startswith("."):
+            continue
         voicePath = os.path.join(voiceDir, voiceFilename)
         if not os.path.isfile(voicePath):
             continue
@@ -89,4 +97,9 @@ def getFormants(sound, soundTextgrid):
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) <= 1:
+        print("Error please specify directory to process")
+        exit(0)
+    voiceDirectory = os.path.join(rootDir, sys.argv[1])
+    annotationDirectory = os.path.join(rootDir, sys.argv[1].replace("V", "An"))
+    main(voiceDirectory, annotationDirectory)
