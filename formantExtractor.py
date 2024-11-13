@@ -8,7 +8,7 @@ import os
 
 # voiceDir = "MisingSentences/V2"
 # annoDir = "MisingSentences/An2"
-outputDir = "formantData"
+outputDir = "formants"
 
 rootDir = "MisingSentences"
 

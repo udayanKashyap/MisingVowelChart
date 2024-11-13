@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 
 # Define the path to the CSV files and load all CSV filenames
-csv_files = glob.glob("formantData/*.csv")
+csv_files = glob.glob("formants/*.csv")
 
 # List to hold each DataFrame
 dataframes = []
