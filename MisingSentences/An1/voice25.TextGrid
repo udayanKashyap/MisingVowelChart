@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.8613333333333335 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "vowels" 
+        xmin = 0 
+        xmax = 3.8613333333333335 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5618885173607092 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5618885173607092 
+            xmax = 0.6994062114736463 
+            text = "e'" 
+        intervals [3]:
+            xmin = 0.6994062114736463 
+            xmax = 1.2074759083468884 
+            text = "" 
+        intervals [4]:
+            xmin = 1.2074759083468884 
+            xmax = 1.2469951459037603 
+            text = "e'" 
+        intervals [5]:
+            xmin = 1.2469951459037603 
+            xmax = 1.4259534557645086 
+            text = "" 
+        intervals [6]:
+            xmin = 1.4259534557645086 
+            xmax = 1.469608234714002 
+            text = "e'" 
+        intervals [7]:
+            xmin = 1.469608234714002 
+            xmax = 1.5393167274789168 
+            text = "" 
+        intervals [8]:
+            xmin = 1.5393167274789168 
+            xmax = 1.6190791544881868 
+            text = "u" 
+        intervals [9]:
+            xmin = 1.6190791544881868 
+            xmax = 1.807079269672249 
+            text = "" 
+        intervals [10]:
+            xmin = 1.807079269672249 
+            xmax = 2.5969767797290655 
+            text = "" 
+        intervals [11]:
+            xmin = 2.5969767797290655 
+            xmax = 2.672402217271845 
+            text = "u" 
+        intervals [12]:
+            xmin = 2.672402217271845 
+            xmax = 2.7147680698126684 
+            text = "" 
+        intervals [13]:
+            xmin = 2.7147680698126684 
+            xmax = 2.791555697429658 
+            text = "a" 
+        intervals [14]:
+            xmin = 2.791555697429658 
+            xmax = 3.8613333333333335 
+            text = "" 
