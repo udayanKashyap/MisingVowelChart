@@ -11,6 +11,7 @@ outputDir = "formantData"
 
 
 def main():
+    sentenceCounter = 0
     for voiceFilename in os.listdir(voiceDir):
         voicePath = os.path.join(voiceDir, voiceFilename)
         if not os.path.isfile(voicePath):
@@ -24,11 +25,13 @@ def main():
             voiceTextgrid = tg.TextGrid.fromFile(annotationPath)
             # print(voiceTextgrid[0][0])
             formantData = getFormants(voice, voiceTextgrid)
+            sentenceCounter += 1
             with open(outputPath, "w", newline="") as csvfile:
                 fieldnames = formantData[0].keys()
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
                 writer.writerows(formantData)
+    print("Sentences processed: " + str(sentenceCounter))
 
 
 def getAnnotatedFilename(voiceFilename):
