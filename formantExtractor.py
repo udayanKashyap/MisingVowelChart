@@ -54,7 +54,7 @@ def getFormants(sound, soundTextgrid):
     data = []
 
     # parameters of formant extraction
-    timestep_s = 0.0025
+    timestep_s = 0
     max_formants = 5
     formant_ceiling_hz = 5000
     window_length_s = 0.025
