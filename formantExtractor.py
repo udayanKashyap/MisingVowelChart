@@ -72,7 +72,7 @@ def getFormants(sound, soundTextgrid):
     dataDict = {}
     # extract the formants from the vowels in the 0th tier
     for vowels in soundTextgrid[0]:
-        if vowels.mark == "":
+        if vowels.mark == "" or vowels.mark == "\t":
             continue
         time = (vowels.minTime + vowels.maxTime) / 2.0
         f1 = praat.call(formants, "Get value at time", 1, time, "Hertz", "Linear")
