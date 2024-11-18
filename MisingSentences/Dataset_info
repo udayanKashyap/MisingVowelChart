@@ -1,15 +1,22 @@
 Recordings - 
 Male -
-	Unique sentences - 29
-	Repetitions - 3
-	Total sentences - 87
-	
+  Speaker1:
+    Unique sentences - 29
+    Repetitions - 3
+    Total sentences - 87
+
 Female - 
-	Unique sentences - 31
-	Repetitions - 2
-	Total sentences - 62
+  Speaker1:
+    Unique sentences - 31
+    Repetitions - 2
+    Total sentences - 62
+
+  Speaker2:
+    Unique sentences - 9
+    Repetitions - 1
+    Total sentences - 9
 
 
 Annotations - 
 Male - 87 sentences (100%)
-Female - 28 sentences (45%)
+Female - 69 sentences (97%)
