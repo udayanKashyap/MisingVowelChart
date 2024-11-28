@@ -24,7 +24,7 @@ fig.update_layout(
         range=[x_max, x_min], title="F2", autorange=False, fixedrange=True
     ),  # Reverse F2 axis
     yaxis=dict(
-        range=[y_min, y_max], title="F1", autorange=False, fixedrange=True
+        range=[y_max, y_min], title="F1", autorange=False, fixedrange=True
     ),  # Fix F1 axis
     title=dict(font=dict(size=20)),  # Optional: Adjust title font size
 )
